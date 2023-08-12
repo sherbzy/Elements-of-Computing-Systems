@@ -2,16 +2,12 @@ Project 7
 Overview and Instructions
 Do project 7 from The Elements of Computing Systems, which is part 1 of building the VM translator. This is a significantly challenging project, as mentioned in class, as you have to keep straight that you are writing in one language to translate a second language into a third language! It is also a significant coding project. Use everything you know about good software practices - code incrementally, testing as you go with small VM programs (write your own if needed). If you wait to test until you've written hundreds of lines of code, you'll be debugging forever.
 
-You may work in pairs for projects 7 and 8, turning in the same code for each pair. Each pair should contribute equally to the effort!
-
 As with project 6, use the programming language of your choice, within reason.
 
 According to the book your program should run from the command line and take a command line argument giving either a .vm file name in the current directory or a directory name in the current directory. However, for this project all the test programs are single .vm files, so I will only expect you to handle single .vm filenames as arguments (one file, one argument). (You will need to have directory support for project 8, though.)
 
 Grading
 For this project you are given 5 test programs in the VM language to translate to assembly code. These come with corresponding test scripts, against which you will be checked. Successful completion of a test is worth 19 points; your README makes up the last 5 points.
-
-There will be no partial credit on this project. However, you do get a chance to improve your score. If you get a better grade on project 8 than project 7, your project 8 score will also be assigned to project 7. The rationale behind this is that the project 8 translator is a more complete version of the project 7 translator, so if you are successful in completing project 8, by extension you successfully implemented all of the necessary functionality for project 7 as well.
 
 Task	Value
 README	5 points
